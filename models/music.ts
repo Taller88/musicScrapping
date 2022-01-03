@@ -1,0 +1,5 @@
+interface Music {
+    name:string;
+    singer:string;
+    elbum:string;
+}

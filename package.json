@@ -1,0 +1,18 @@
+{
+  "name": "musicscrapping",
+  "version": "1.0.0",
+  "description": "melon, vibe, genie scrapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jjw",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2"
+  }
+}
