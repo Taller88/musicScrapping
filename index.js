@@ -64,7 +64,9 @@ var top100 = "";
  * 
  *      var test = {}
  * 
- *      test.prototype.testFunction = function()
+ *      test.prototype.testFunction = function(){}
+ * 
+ *      module.exports = test // moduel exports 
  * 
  *      
  * 
