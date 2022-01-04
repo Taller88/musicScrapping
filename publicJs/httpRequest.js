@@ -52,13 +52,13 @@ httpRequest.prototype.post = async function(path, postData, header){
   
   try{
       console.log("try init");
- this.result = await axios({
-      method: 'post',
-      url: path,
-      data:postData,
-      rejectUnauthorized: false,// 이거 없으면 'Hostname/IP does not match certificate's altnames' error -> TLS(https) 관련 에러인듯
-      headers:header
-  });
+        this.result = await axios({
+            method: 'post',
+            url: path,
+            data:postData,
+            rejectUnauthorized: false,// 이거 없으면 'Hostname/IP does not match certificate's altnames' error -> TLS(https) 관련 에러인듯
+            headers:header
+        });
   // console.log(this.result)
   }catch(e){
       console.log("post error!")
